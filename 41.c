@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int x = 5;
-  int y = 3;
-  printf("%d", x - y);
+  int time = 20;
+  if (time < 18) {
+    printf("Good day.");
+  } else {
+    printf("Good evening.");
+  }
   return 0;
 }
