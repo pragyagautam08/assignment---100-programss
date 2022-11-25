@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+	int a = 5, b= 10, c;
+	c = a | b ; 
+	printf("registor number-RA2211042010022\n");		
+	printf("%d\n", c);
+}
